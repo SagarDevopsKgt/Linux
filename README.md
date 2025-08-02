@@ -1,6 +1,5 @@
-# Linux
-
-Absolutely, transitioning from Oracle PL/SQL to DevOps is a great move! Linux and shell scripting are fundamental skills for DevOps engineers. Here’s a comprehensive guide to **essential Linux commands** and **shell scripting basics**, with examples and real-world scenarios.
+# Linux 
+Shell scripting are fundamental skills for DevOps engineers. Here’s a comprehensive guide to **essential Linux commands** and **shell scripting basics**, with examples and real-world scenarios.
 
 ---
 
