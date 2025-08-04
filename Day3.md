@@ -44,4 +44,54 @@ Absolutely! Here's a **clean and readable cheat sheet** for the `ls` command wit
 
 ---
 
+
+Absolutely! Here's a practical breakdown of:
+
+---
+
+## 📁 `cd` (Change Directory) — Common Options & Variants
+
+### ✅ Basic Syntax:
+
+```bash
+cd [directory_path]
+```
+
+---
+
+### 🔹 **Common Use Cases of `cd`**
+
+| Command           | Description                                        |
+| ----------------- | -------------------------------------------------- |
+| `cd`              | Go to **home directory** (`$HOME`)                 |
+| `cd ~`            | Same as above — home directory                     |
+| `cd /`            | Go to root directory                               |
+| `cd ..`           | Go **one level up** (parent directory)             |
+| `cd ../..`        | Go **two levels up**                               |
+| `cd -`            | Switch to the **previous directory** (very handy!) |
+| `cd /path/to/dir` | Go to a **specific absolute path**                 |
+| `cd ~/Downloads`  | Go to a directory under the home folder            |
+| `cd ./folder`     | Use a **relative path** (inside current directory) |
+
+---
+
+### 🔹 **Using Variables with `cd`**
+
+| Example      | Description                                       |
+| ------------ | ------------------------------------------------- |
+| `cd $HOME`   | Go to home directory                              |
+| `cd $OLDPWD` | Go to previous directory                          |
+| `cd $PWD`    | Stay in the same directory (returns current path) |
+
+--Useful Directory Navigation Aliases
+
+| Alias                  | Command                         |
+| ---------------------- | ------------------------------- |
+| `alias ..='cd ..'`     | Shortcut for going up one level |
+| `alias ...='cd ../..'` | Go up two levels                |
+| `alias c='clear'`      | Clear screen quickly            |
+| `alias home='cd ~'`    | Go to home directory quickly    |
+
+
+
 Would you like this formatted as a downloadable PDF or printable table too?
